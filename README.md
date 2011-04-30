@@ -32,5 +32,5 @@ or within your Django project. Then add `delicious_cake` to your installed
 apps. It doesn't use any models so no need to run `syncdb` or anything.
 
 To output on your page load the tag `{% load delicious_cake %}` and then 
-call it somewhere in your template '{% delicious_cake %}` it will automatically 
+call it somewhere in your template `{% delicious_cake %}` it will automatically 
 be wrapped in HTML comments, `<!-- -->`
