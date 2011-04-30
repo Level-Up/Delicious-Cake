@@ -97,7 +97,7 @@ class delicious_cake(Tag):
     computer-aided enrichment activity. Goodbye
     
     Usage:
-    {{ delicious_cake }}
+    {% delicious_cake %}
     """
 
     def render_tag(self, context):
